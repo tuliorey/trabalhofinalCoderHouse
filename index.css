@@ -16,21 +16,16 @@ a{
 	font-size: 35px;
 	text-decoration: none;
 	font-family: 'Luxurious Roman', cursive;
-	color:white;
 }
 
 a:link{
 	color:rgb(209, 208, 208);
+	font-weight: bolder;
 }
 
 a:visited{
-	color:gray;
-}
-
-a:hover {
-	color: #f70303;
-	text-decoration: underline;
-
+	color:rgb(141, 153, 221);
+	font-weight: bolder;
 }
 
 #brasao {
@@ -79,14 +74,13 @@ blockquote {
     color: white;
     font-size: 80px;
 }
-#openText {
+section,main {
     font-size: 25px;
     font-family: 'Luxurious Roman', cursive;
     color:#FFFF;
 }
 p {
     font-family: 'Luxurious Roman', cursive;
-    color: rgb(255, 255, 255);
 }
 
 #container {
@@ -159,6 +153,14 @@ p {
 	border-top: 1px solid #C8D0CA;
 	margin-right: auto; 
 	margin-left: auto; 
+	color: black;
+	font-size: 14pt;
+}
+
+#footer a{
+	color: black;
+	font-size: 14pt;
+	font-weight: bolder;
 }
 
 .sidebarboxtop h2 {

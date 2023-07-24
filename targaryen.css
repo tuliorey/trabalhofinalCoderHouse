@@ -17,7 +17,7 @@ body {
 
 #apresentacao {
     align-items: center;
-    gap: 30px;
+    gap: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -57,18 +57,20 @@ a{
 	color:white;
 }
 
+a{
+	font-size: 35px;
+	text-decoration: none;
+	font-family: 'Luxurious Roman', cursive;
+}
+
 a:link{
 	color:rgb(209, 208, 208);
+	font-weight: bolder;
 }
 
 a:visited{
-	color:gray;
-}
-
-a:hover {
-	color: #f70303;
-	text-decoration: underline;
-
+	color:rgb(141, 153, 221);
+	font-weight: bolder;
 }
 
 #daenerys {
@@ -209,6 +211,14 @@ p {
 	border-top: 1px solid #C8D0CA;
 	margin-right: auto; 
 	margin-left: auto; 
+	color: black;
+	font-size: 14pt;
+}
+
+#footer a{
+	color: black;
+	font-size: 14pt;
+	font-weight: bolder;
 }
 
 .sidebarboxtop h2 {

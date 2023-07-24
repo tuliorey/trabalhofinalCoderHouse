@@ -59,10 +59,12 @@ a{
 
 a:link{
 	color:rgb(209, 208, 208);
+	font-weight: bolder;
 }
 
 a:visited{
-	color:gray;
+	color:rgb(141, 153, 221);
+	font-weight: bolder;
 }
 
 a:hover {
@@ -209,6 +211,14 @@ p {
 	border-top: 1px solid #C8D0CA;
 	margin-right: auto; 
 	margin-left: auto; 
+	color: black;
+	font-size: 14pt;
+}
+
+#footer a{
+	color: black;
+	font-size: 14pt;
+	font-weight: bolder;
 }
 
 .sidebarboxtop h2 {
