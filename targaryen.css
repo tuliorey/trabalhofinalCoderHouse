@@ -1,46 +1,97 @@
 body {
-	background-color: #ffffff;
+	background: rgba(0, 0, 0, 0.199) url(imagens/bgTargaryen.png);
+	background-size: 90%;
+	background-attachment: scroll;
 	margin: 0px;
 	padding: 0px;
-	font-family: tahoma, verdana, arial, helvetica, sans-serif;
-	font-size: 19px;
-	color: #444444;
 }
 
-a, a:visited, a:active {
-	font-family: tahoma, verdana, arial, helvetica, sans-serif;
-	font-size: 20px;
-	color: #5d5f6e;
+#GOTslogan {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 50px;
+}
+
+#apresentacao {
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section {
+    display: grid;
+    grid-template-areas: 
+    "nome"
+    "fotoBaratheon" 
+	"bio";
+    font-family: 'Luxurious Roman', cursive;
+    color:#FFFF;
+}
+
+.nome {
+    font-size: 60px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fotoBio{
+    display: grid;
+    grid-template-areas: 
+    "fotoBaratheon";
+    align-items: center;
+    font-size: x-large;
+    column-gap: 20px;
+}
+
+a{
+	font-size: 35px;
 	text-decoration: none;
+	font-family: 'Luxurious Roman', cursive;
+	color:white;
+}
+
+a:link{
+	color:rgb(209, 208, 208);
+}
+
+a:visited{
+	color:gray;
 }
 
 a:hover {
-	color: #444444;
+	color: #f70303;
 	text-decoration: underline;
 
 }
 
-h3 {
-	margin-top: 30px;
-	color: #5D6E63;
-	font-size: 14px;
-	font-weight: bold;
+#daenerys {
+	display: block;
+	margin: 0 auto;
 }
-
-.pcenter {
-	text-align: center;
-}
-
-img {
-	display: inline;
-	float: left;
-	margin: 4px 10px 5px 0px;
-}
-
+#brasao {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
 img.alignright {
 	display: inline;
 	float: right;
 	margin: 4px 0px 5px 10px;
+}
+
+#imgPonta img {
+    width: 100%;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #000000;
 }
 
 ul {
@@ -57,105 +108,39 @@ blockquote {
 	height: 110px;
 	margin: 0px 0px 0px 0px;
 	padding: 0;
-	background: #758A7B url('images/hback.gif') left top repeat-x; 
+	background: #000000 left top repeat-x; 
 	margin-right: auto; 
 	margin-left: auto; 
 	border-bottom: 10px solid #C8D0CA;
 }
 
-#headercontent {
-	width: 300px;
-	text-align: left;
-	padding-left: 7px;
-	padding-right: 7px;
-	padding-top: 28px;
-	margin-top: 0px; 
-	margin-bottom: 0px; 
-	margin-right: auto; 
-	margin-left: auto; 
-
+#titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+	font-family: 'Luxurious Roman', cursive;
 }
 
-#title {
-	float: left;
+#mainTitle {
+    text-align: center;
+    margin: 0;
+    color: black;
+    font-size: 80px;
 }
-
-#title h1 {
-	letter-spacing: -1px;
-	color: #ffffff;
-	font-size: 32px;
-	font-weight: bold;
-	margin: 0;
-	padding: 0;
+#openText {
+    font-size: 25px;
+    font-family: 'Luxurious Roman', cursive;
+    color:#FFFF;
 }
-
-#title h1 a, #title h1 a:visited, #title h1 a:active, #title h1 a:hover {
-	letter-spacing: -1px;
-	color: #ffffff;
-	font-size: 32px;
-	font-weight: bold;
-	margin: 0;
-	padding: 0;
-	text-decoration: none;
-}
-
-#title p {
-	margin-top: 0px;
-	text-align: center;
-	font-size: 12px;
-	color: #F1F3F2;
-}
-
-#topmenu {
-	float: right;
-	height: 25px;
-	padding-bottom: 0px;
-	margin-top: 52px; 
-	margin-right: 0px;
-	margin-bottom: 0px; 
-}
-
-#topmenu ul {
-	margin: 0;
-	padding: 0;
-}
-
-#topmenu li {
-	display: inline;
-	list-style: none;
-}
-
-#topmenu li a, #topmenu li a:visited, #topmenu li a:active {
-	display: block;
-	color: #ffffff;
-	font-weight: bold;
-	background: #ACB9B0 url('images/bl.gif') left top no-repeat;
-	text-decoration: none;
-	float: left;
-	margin: 0px 2px 0px 0px;
-	padding: 8px 0px 8px 25px;
-}
-
-#topmenu li a span, #topmenu li a:visited span, #topmenu li a:active span {
-	padding-right: 25px;
-	padding-top: 8px;
-	background: #ACB9B0 url('images/br.gif') right top no-repeat;
-}
-
-#topmenu li a:hover {
-	text-decoration: none;
-	margin: 0px 2px 0px 0px;
-	padding: 8px 0px 8px 25px;
-	background: #C8D0CA url('images/lbl.gif') left top no-repeat;
-	color: #5D6E63;
-}
-
-#topmenu li a:hover span {
-	background: #C8D0CA url('images/lbr.gif') right top no-repeat;
+p {
+    font-family: 'Luxurious Roman', cursive;
+    color: black;
 }
 
 #container {
-	width: 785px;
+	width: 1024px;
 	padding-left: 7px;
 	padding-right: 7px;
 	text-align: left;
@@ -166,7 +151,7 @@ blockquote {
 }
 
 #sidebar {
-	width: 210px;
+	width: 300px;
 	margin-top: 13px;
 	margin-bottom: 60px;
 	float: right;
@@ -174,24 +159,17 @@ blockquote {
 }
 
 .sidebarbox {
-	background: #F1F3F2 url('images/mb.gif') left bottom no-repeat;
+	background: #0303036b /*url('images/mb.gif')*/ left bottom no-repeat;
+	font-family: 'Luxurious Roman', cursive;
+	color:white;
 	display: block;
 	margin: 0px 0px 14px 0px;
 }
 
 .sidebarboxtop {
-	background: url('images/mt.gif') left top no-repeat;
-	padding: 10px 15px 11px 15px;
-	width: 180px;
-}
-
-#sidebar h2 {
-	margin-top: 4px;
-	margin-bottom: 13px; 
-	padding-bottom: 1px;
-	font-size: 16px;
-	font-weight: normal;
-	background: url('images/borderb.gif') left bottom no-repeat; 
+	/*background: url('images/mt.gif') left top no-repeat;*/
+	padding: 10px 15px 11px 14px;
+	width: 300px;
 }
 
 #sidebar ul {
@@ -199,8 +177,8 @@ blockquote {
 	margin-top: 0px;
 	margin-bottom: 2px;
 	margin-left: 0px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 #sidebar ul ul {
@@ -214,173 +192,13 @@ blockquote {
 	margin-bottom: 6px;
 }
 
-#searchbox {
-	margin: 0;
-	padding: 0;
-}
-
-#searchinp {
-	width: 84%;
-	margin-bottom: 3px;
-	border: 1px solid #444444;
-}
-
-#searchsubmit {
-	background-color: #F1F3F2;
-	border: 0px;
-	padding-left: 0px;
-	font-size: 12px;
-	color: #5D6E63;
-}
-
 #content {
 	margin: 0px 0px 60px 0px;
 	padding: 0;
 	float: left;
-	width: 535px;
+	width: 600px;
 	display: block;
 }
-
-.posttitle {
-	margin-top: 15px;
-	margin-bottom: 0px;
-	height: 60px;
-}
-
-.posttitle h2 {
-	margin-top: 0px;
-	padding-top: 1px;
-	margin-bottom: 6px;
-	font-size: 20px;
-	font-weight: normal;
-	color: #5D6E63;
-}
-
-.posttitle h2 a, .posttitle h2 a:visited, .posttitle h2 a:active {
-	font-size: 20px;
-	font-weight: normal;
-	color: #5D6E63;
-	text-decoration: none;
-}
-
-.posttitle h2 a:hover {
-	color: #444444;
-	text-decoration: underline;
-}
-
-.postdate {
-	float: left;
-	background: url('images/datebg.gif') no-repeat left center;
-	color: #5D6E63;
-	width: 55px;
-	text-align: center;
-	font-size: 15px;
-	line-height: 16px;
-	font-variant: small-caps;
-	padding: 7px 0px 13px 0px;
-	margin: 0px 12px 0px 0px;
-}
-
-.postdate span {
-	display: block;
-	font-size: 26px;
-	text-align: center;
-	font-weight: bold;
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
-}
-
-.postinfo {
-	margin-left: 59px;
-	padding-bottom: 6px;
-	border-bottom: 1px solid #C8D0CA;
-}
-
-
-
-
-.posttext {
-	line-height: 130%;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-left: 1px;
-}
-
-.postfooter {
-	text-align: right;
-	padding: 3px 8px 3px 3px;
-	margin-bottom: 20px;
-	margin-top: 5px;
-}
-
-.posttext p {
-	margin-top: 10px;
-}
-
-#entrynav {
-	background-color: #F1F3F2;
-	padding: 5px 10px 5px 10px;
-}
-
-#entrynext {
-	float: right;
-	display: inline;
-}
-
-#commentlist {
-	list-style: none;
-	margin: 0;
-	padding: 0px;
-}
-
-#commentlist li {
-	margin: 0px;
-	padding: 18px 10px 15px 10px;
-}
-
-#commentlist li p {
-	margin-top: 12px;
-	margin-bottom: 6px;
-	line-height: 130%;
-}
-
-.commentalt {
-	border-top: 1px solid #C8D0CA; 
-	border-bottom: 1px solid #C8D0CA; 
-	background-color: #F1F3F2;
-}
-
-#commentlist .commentname {
-	font-weight: bold;
-}
-
-#writecomment {
-	background: #F1F3F2 url('images/combot.gif') left bottom no-repeat;
-	margin-top: 20px;
-}
-
-#writecommenttop {
-	background: url('images/comtop.gif') left top no-repeat;
-	padding: 10px 10px 10px 15px;
-}
-
-#writecomment p {
-	margin: 10px;
-}
-
-form {
-	padding: 0;
-	margin: 0;
-}
-
-#commentform textarea {
-	width: 95%;
-	padding: 2px;
-	border: 1px solid #444444;
-	}
-	
-
-	
 #footer {
 	padding: 12px 0px 12px 0px;
 	clear: both;
@@ -393,3 +211,8 @@ form {
 	margin-left: auto; 
 }
 
+.sidebarboxtop h2 {
+	text-align: center;
+	font-size: 40pt;
+	font-family: 'UnifrakturCook', cursive;
+  }
