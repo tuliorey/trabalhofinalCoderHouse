@@ -1,92 +1,104 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>GAME OF THRONES</title>
-  <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Game of Thrones, GOT, Baratheon">
+  <meta name="description"
+    content="A Casa Baratheon, que ganhou o Trono de Ferro após a rebelião que depôs os Targaryen. Eles são liderados por Robert Baratheon e, mais tarde, por seu irmão mais novo, Stannis.">
+  <link rel="shortcut icon" href="imagens/logoGOT.jpg">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Saira+Semi+Condensed:wght@700&family=UnifrakturCook:wght@700&display=swap"
+    rel="stylesheet">
+  <title>Game Of Thrones - The Winter is Coming!</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="casaBaratheon.js"></script>
+  <script src="snowstorm.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <style>
+  body {
+    background-color: black;
+  }
+</style>
   <div id="header">
     <div id="headercontent">
       <div id="title">
-        <h1><a >Game of Thrones</a></h1>
-        <p>A Canção de Gelo e Fogo</p>
-      </div>
-      <div id="topmenu">
-
+        <div id="GOTslogan" onclick="winter()"> Game of Thrones - The Winter is Coming!</div>
       </div>
     </div>
   </div>
   <div id="container">
     <div id="content">
-      <div class="posttitle">
-        <div class="postdate"><span>01</span></div>
-        <h2><a href="comments.html">História</a></h2>
-        <div class="postinfo"> <a
-            
-              href="http://all-free-download.com/free-website-templates/"></a></span> </div>
-      </div>
-      <div class="posttext">
-        <p>Game of Thrones (em português Guerra dos Tronos) é uma série de televisão americana criada por David Benioff
-          e D. B. Weiss para a HBO. A série é baseada na saga de livros As Crônicas de Gelo e Fogo, escritos por George
-          R. R. Martin, com seu título sendo derivado do primeiro livro.</p>
-        <hr>
-        
-          <p>A série se inicia quando Ned Stark, senhor de Winterfell e protetor do Norte, é convidado para se tornar o principal conselheiro (conhecido como o Mão do Rei) do Rei Robert Baratheon dos Sete Reinos de Westeros. Ned, em segredo, recebe uma carta de Lysa, irmã de sua esposa Catelyn, que lhe dá motivo para acreditar que seus rivais, a Casa Lannister — da qual a esposa do rei, a Rainha Cersei, faz parte — causaram a morte de Jon Arryn, o Mão do Rei anterior. Ned entra na missão de ir para o sul a fim de ajudar o rei a governar como também a descobrir quem matou Jon Arryn. Enquanto isso, além do Mar Estreito, o príncipe exilado Viserys Targaryen arranja um casamento para sua irmã Daenerys com Khal Drogo, em troca do exército de Drogo para tomar o Trono de Ferro que é seu por direito.
+      <section>
+        <div id="titulo" class="container">
+          <div id="mainTitle">História</div>
+        </div>
+      </section>
 
-          </p>
-       
-      </div>
-      
-      <div class="posttitle">
-        
-      
-        </h2>
-      
-      </div>
+      <main>
+        <article id="apresentacao">
+          <div id="openText">
+            <p>
+              Game of Thrones (em português Guerra dos Tronos) é uma série de televisão americana criada por David
+              Benioff
+              e D. B. Weiss para a HBO. A série é baseada na saga de livros As Crônicas de Gelo e Fogo, escritos por
+              George
+              R. R. Martin, com seu título sendo derivado do primeiro livro.
+            </p>
+            <div id="imgPonta"><img src=" imagens/game-of-thrones.webp" alt="Nerd Stark" class="img-fluid"></div>
+            <p>
+              A série se inicia quando Ned Stark, senhor de Winterfell e protetor do Norte, é convidado para se tornar o
+              principal conselheiro (conhecido como o Mão do Rei) do Rei Robert Baratheon dos Sete Reinos de Westeros.
+              Ned, em segredo, recebe uma carta de Lysa, irmã de sua esposa Catelyn, que lhe dá motivo para acreditar
+              que seus rivais, a Casa Lannister — da qual a esposa do rei, a Rainha Cersei, faz parte — causaram a morte
+              de Jon Arryn, o Mão do Rei anterior. Ned entra na missão de ir para o sul a fim de ajudar o rei a governar
+              como também a descobrir quem matou Jon Arryn. Enquanto isso, além do Mar Estreito, o príncipe exilado
+              Viserys Targaryen arranja um casamento para sua irmã Daenerys com Khal Drogo, em troca do exército de
+              Drogo para tomar o Trono de Ferro que é seu por direito.
+            </p>
+          </div>
+      </main>
 
     </div>
     <div id="sidebar">
       <div class="sidebarbox">
-        <div class="sidebarboxtop">
-          <h2>Pesquisar</h2>
-          <form method="get" id="searchform" action="google.com">
-            <p id="searchbox">
-              <input type="text" value="" name="s" id="searchinp" size="14" />
-              <input type="image" src="images/iconsearch.gif" id="searchsubmit" />
-            </p>
-          </form>
+        <div id="brasao">
+          <img src="imagens/logoGOT.jpg" width="250">
         </div>
-      </div>
-      <div class="sidebarbox">
-        <img src="images/got.png" width="200" 
-                    aling="left">
         <div class="sidebarboxtop">
-          <h2>Grandes Casas</h2>
+          <h2>Menu</h2>
           <ul>
-            <li><a href="stark.html">Stark</a></li>
+            <li><a href="stark.html">🐺Stark</a></li>
             <hr>
-            <li><a href="targaryen.html">Targaryen</a></li>
+            <li><a href="targaryen.html">🐲Targaryen</a></li>
             <hr>
-            <li><a href="lannister.html">Lannister</a></li>
+            <li><a href="lannister.html">🦁Lannister</a></li>
             <hr>
-            <li><a href="baratheon.html">Baratheon</a></li>
-            <hr>
-            
+            <li><a href="baratheon.html">🦌Baratheon</a></li>
+
           </ul>
         </div>
       </div>
 
-      </div>
     </div>
-    <br />
   </div>
   <div id="footer">
-   
-    </div>
+
+  </div>
 
 </body>
 

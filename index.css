@@ -1,0 +1,168 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+#GOTslogan {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 50px;
+}
+  
+a{
+	font-size: 35px;
+	text-decoration: none;
+	font-family: 'Luxurious Roman', cursive;
+	color:white;
+}
+
+a:link{
+	color:rgb(209, 208, 208);
+}
+
+a:visited{
+	color:gray;
+}
+
+a:hover {
+	color: #f70303;
+	text-decoration: underline;
+
+}
+
+#brasao {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+img.alignright {
+	display: inline;
+	float: right;
+	margin: 4px 0px 5px 10px;
+}
+
+ul {
+	list-style-type: square;
+}
+
+blockquote {
+	margin: 15px 30px 15px 10px;
+	padding-left: 20px;
+	border-left: 5px solid #C8D0CA;
+}
+
+#header {
+	height: 110px;
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+	background: #000000 left top repeat-x; 
+	margin-right: auto; 
+	margin-left: auto; 
+	border-bottom: 10px solid #C8D0CA;
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+	font-family: 'Luxurious Roman', cursive;
+}
+
+#mainTitle {
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 80px;
+}
+#openText {
+    font-size: 25px;
+    font-family: 'Luxurious Roman', cursive;
+    color:#FFFF;
+}
+p {
+    font-family: 'Luxurious Roman', cursive;
+    color: rgb(255, 255, 255);
+}
+
+#container {
+	width: 1024px;
+	padding-left: 7px;
+	padding-right: 7px;
+	text-align: left;
+	margin-top: 20px; 
+	margin-bottom: 0px; 
+	margin-right: auto; 
+	margin-left: auto; 
+}
+
+#sidebar {
+	width: 300px;
+	margin-top: 13px;
+	margin-bottom: 60px;
+	float: right;
+	display: inline;
+}
+
+.sidebarbox {
+	background: #0303036b /*url('images/mb.gif')*/ left bottom no-repeat;
+	font-family: 'Luxurious Roman', cursive;
+	color:white;
+	display: block;
+	margin: 0px 0px 14px 0px;
+}
+
+.sidebarboxtop {
+	/*background: url('images/mt.gif') left top no-repeat;*/
+	padding: 10px 15px 11px 14px;
+	width: 300px;
+}
+
+#sidebar ul {
+	list-style: none; 
+	margin-top: 0px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#sidebar ul ul {
+	margin-top: 5px;
+	margin-left: 3px;
+	padding-right: 0px;
+}
+
+#sidebar li {
+	margin-left: 0px;
+	margin-bottom: 6px;
+}
+
+#content {
+	margin: 0px 0px 60px 0px;
+	padding: 0;
+	float: left;
+	width: 600px;
+	display: block;
+}
+#footer {
+	padding: 12px 0px 12px 0px;
+	clear: both;
+	display: block;
+	margin-top: 60px;
+	text-align: center;
+	background-color: #F1F3F2;
+	border-top: 1px solid #C8D0CA;
+	margin-right: auto; 
+	margin-left: auto; 
+}
+
+.sidebarboxtop h2 {
+	text-align: center;
+	font-size: 40pt;
+	font-family: 'UnifrakturCook', cursive;
+  }
